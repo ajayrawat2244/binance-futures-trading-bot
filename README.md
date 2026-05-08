@@ -67,8 +67,8 @@ Order ID: 13121393426
 Status: NEW
 Executed Qty: 0.0000
 Average Price: 0.00Order placed successfully.
-```
-### Project Structure
+
+## Project Structure
 binance-futures-trading-bot/
 │├── bot/
 │   ├── __init__.py
@@ -83,7 +83,7 @@ binance-futures-trading-bot/
 ├── README.md
 ├── .env
 └── .gitignore
-
+```
 ### Logging
 # All API requests, responses, and errors are stored in:
 logs/bot.log
