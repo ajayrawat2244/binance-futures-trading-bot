@@ -8,9 +8,6 @@ load_dotenv()
 API_KEY = os.getenv("BINANCE_API_KEY")
 API_SECRET = os.getenv("BINANCE_API_SECRET")
 
-print(API_KEY)
-print(API_SECRET)
-
 def main():
     parser = argparse.ArgumentParser(description="Binance Futures Trading Bot")
 
